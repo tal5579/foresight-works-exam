@@ -1,0 +1,28 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 400px;
+    height: 50vh;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: #efefef 0px 0px 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .form_wrapper {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+    }
+}
